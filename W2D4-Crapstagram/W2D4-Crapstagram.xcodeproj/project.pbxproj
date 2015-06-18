@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ACE82DD1B30C868003E8E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE82DC1B30C868003E8E5A /* main.m */; };
+		2ACE82E01B30C868003E8E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE82DF1B30C868003E8E5A /* AppDelegate.m */; };
+		2ACE82E31B30C868003E8E5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE82E21B30C868003E8E5A /* ViewController.m */; };
+		2ACE82E61B30C868003E8E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE82E41B30C868003E8E5A /* Main.storyboard */; };
+		2ACE82E81B30C868003E8E5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE82E71B30C868003E8E5A /* Images.xcassets */; };
+		2ACE82EB1B30C868003E8E5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ACE82E91B30C868003E8E5A /* LaunchScreen.xib */; };
+		2ACE82F71B30C868003E8E5A /* W2D4_CrapstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACE82F61B30C868003E8E5A /* W2D4_CrapstagramTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ACE82F11B30C868003E8E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACE82CF1B30C868003E8E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACE82D61B30C868003E8E5A;
+			remoteInfo = "W2D4-Crapstagram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ACE82D71B30C868003E8E5A /* W2D4-Crapstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W2D4-Crapstagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACE82DB1B30C868003E8E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACE82DC1B30C868003E8E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ACE82DE1B30C868003E8E5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ACE82DF1B30C868003E8E5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ACE82E11B30C868003E8E5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ACE82E21B30C868003E8E5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ACE82E51B30C868003E8E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ACE82E71B30C868003E8E5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2ACE82EA1B30C868003E8E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2ACE82F01B30C868003E8E5A /* W2D4-CrapstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W2D4-CrapstagramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACE82F51B30C868003E8E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACE82F61B30C868003E8E5A /* W2D4_CrapstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W2D4_CrapstagramTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ACE82D41B30C868003E8E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACE82ED1B30C868003E8E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ACE82CE1B30C868003E8E5A = {
+			isa = PBXGroup;
+			children = (
+				2ACE82D91B30C868003E8E5A /* W2D4-Crapstagram */,
+				2ACE82F31B30C868003E8E5A /* W2D4-CrapstagramTests */,
+				2ACE82D81B30C868003E8E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ACE82D81B30C868003E8E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE82D71B30C868003E8E5A /* W2D4-Crapstagram.app */,
+				2ACE82F01B30C868003E8E5A /* W2D4-CrapstagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ACE82D91B30C868003E8E5A /* W2D4-Crapstagram */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE82DE1B30C868003E8E5A /* AppDelegate.h */,
+				2ACE82DF1B30C868003E8E5A /* AppDelegate.m */,
+				2ACE82E11B30C868003E8E5A /* ViewController.h */,
+				2ACE82E21B30C868003E8E5A /* ViewController.m */,
+				2ACE82E41B30C868003E8E5A /* Main.storyboard */,
+				2ACE82E71B30C868003E8E5A /* Images.xcassets */,
+				2ACE82E91B30C868003E8E5A /* LaunchScreen.xib */,
+				2ACE82DA1B30C868003E8E5A /* Supporting Files */,
+			);
+			path = "W2D4-Crapstagram";
+			sourceTree = "<group>";
+		};
+		2ACE82DA1B30C868003E8E5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE82DB1B30C868003E8E5A /* Info.plist */,
+				2ACE82DC1B30C868003E8E5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ACE82F31B30C868003E8E5A /* W2D4-CrapstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE82F61B30C868003E8E5A /* W2D4_CrapstagramTests.m */,
+				2ACE82F41B30C868003E8E5A /* Supporting Files */,
+			);
+			path = "W2D4-CrapstagramTests";
+			sourceTree = "<group>";
+		};
+		2ACE82F41B30C868003E8E5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE82F51B30C868003E8E5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ACE82D61B30C868003E8E5A /* W2D4-Crapstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACE82FA1B30C868003E8E5A /* Build configuration list for PBXNativeTarget "W2D4-Crapstagram" */;
+			buildPhases = (
+				2ACE82D31B30C868003E8E5A /* Sources */,
+				2ACE82D41B30C868003E8E5A /* Frameworks */,
+				2ACE82D51B30C868003E8E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "W2D4-Crapstagram";
+			productName = "W2D4-Crapstagram";
+			productReference = 2ACE82D71B30C868003E8E5A /* W2D4-Crapstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ACE82EF1B30C868003E8E5A /* W2D4-CrapstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACE82FD1B30C868003E8E5A /* Build configuration list for PBXNativeTarget "W2D4-CrapstagramTests" */;
+			buildPhases = (
+				2ACE82EC1B30C868003E8E5A /* Sources */,
+				2ACE82ED1B30C868003E8E5A /* Frameworks */,
+				2ACE82EE1B30C868003E8E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ACE82F21B30C868003E8E5A /* PBXTargetDependency */,
+			);
+			name = "W2D4-CrapstagramTests";
+			productName = "W2D4-CrapstagramTests";
+			productReference = 2ACE82F01B30C868003E8E5A /* W2D4-CrapstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ACE82CF1B30C868003E8E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "iT Guy Technologies";
+				TargetAttributes = {
+					2ACE82D61B30C868003E8E5A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					2ACE82EF1B30C868003E8E5A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 2ACE82D61B30C868003E8E5A;
+					};
+				};
+			};
+			buildConfigurationList = 2ACE82D21B30C868003E8E5A /* Build configuration list for PBXProject "W2D4-Crapstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ACE82CE1B30C868003E8E5A;
+			productRefGroup = 2ACE82D81B30C868003E8E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ACE82D61B30C868003E8E5A /* W2D4-Crapstagram */,
+				2ACE82EF1B30C868003E8E5A /* W2D4-CrapstagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ACE82D51B30C868003E8E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACE82E61B30C868003E8E5A /* Main.storyboard in Resources */,
+				2ACE82EB1B30C868003E8E5A /* LaunchScreen.xib in Resources */,
+				2ACE82E81B30C868003E8E5A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACE82EE1B30C868003E8E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACE82D31B30C868003E8E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACE82E31B30C868003E8E5A /* ViewController.m in Sources */,
+				2ACE82E01B30C868003E8E5A /* AppDelegate.m in Sources */,
+				2ACE82DD1B30C868003E8E5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACE82EC1B30C868003E8E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACE82F71B30C868003E8E5A /* W2D4_CrapstagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ACE82F21B30C868003E8E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ACE82D61B30C868003E8E5A /* W2D4-Crapstagram */;
+			targetProxy = 2ACE82F11B30C868003E8E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ACE82E41B30C868003E8E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACE82E51B30C868003E8E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ACE82E91B30C868003E8E5A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACE82EA1B30C868003E8E5A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ACE82F81B30C868003E8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2ACE82F91B30C868003E8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ACE82FB1B30C868003E8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W2D4-Crapstagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ACE82FC1B30C868003E8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W2D4-Crapstagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ACE82FE1B30C868003E8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "W2D4-CrapstagramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W2D4-Crapstagram.app/W2D4-Crapstagram";
+			};
+			name = Debug;
+		};
+		2ACE82FF1B30C868003E8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "W2D4-CrapstagramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W2D4-Crapstagram.app/W2D4-Crapstagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ACE82D21B30C868003E8E5A /* Build configuration list for PBXProject "W2D4-Crapstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACE82F81B30C868003E8E5A /* Debug */,
+				2ACE82F91B30C868003E8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACE82FA1B30C868003E8E5A /* Build configuration list for PBXNativeTarget "W2D4-Crapstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACE82FB1B30C868003E8E5A /* Debug */,
+				2ACE82FC1B30C868003E8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ACE82FD1B30C868003E8E5A /* Build configuration list for PBXNativeTarget "W2D4-CrapstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACE82FE1B30C868003E8E5A /* Debug */,
+				2ACE82FF1B30C868003E8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ACE82CF1B30C868003E8E5A /* Project object */;
+}
